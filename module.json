@@ -1,8 +1,17 @@
 {
+	"id": "abf-utils",
 	"title": "ABF Utils",
 	"version": "1.0.0",
 	"author": "Julen Bordonaba",
 	"description": "Module for Foundry VTT adding utils for ABF system",
+	"compatibility": {
+		"minimum": "9",
+		"verified": "9",
+		"maximum": "9"
+	},
+	"scripts": [
+		"scripts/test.js"
+	],
 	"url": "https://github.com/JulenBordonaba/ABF-Utils",
 	"manifest": "https://github.com/JulenBordonaba/ABF-Utils/releases/latest/download/module.json"
 }
