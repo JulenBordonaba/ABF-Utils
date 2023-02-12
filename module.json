@@ -3,9 +3,6 @@
 	"version": "1.0.0",
 	"author": "Julen Bordonaba",
 	"description": "Module for Foundry VTT adding utils for ABF system",
-	"dependencies": {
-		"animabf": "1.15.1"
-	},
 	"url": "https://github.com/JulenBordonaba/ABF-Utils",
 	"manifest": "https://github.com/JulenBordonaba/ABF-Utils/releases/latest/download/module.json"
 }
