@@ -1,9 +1,12 @@
 {
 	"name": "abf-utils",
 	"title": "ABF Utils",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"author": "Julen Bordonaba",
 	"description": "Module for Foundry VTT adding utils for ABF system",
+	"scripts": [
+		"scripts/test.js"
+	],
 	"minimumCoreVersion": "9.000",
 	"compatibleCoreVersion": "9.269",
 	"system": [ "animabf" ],
