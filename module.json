@@ -4,11 +4,45 @@
 	"version": "1.0.7",
 	"author": "Julen Bordonaba",
 	"description": "Module for Foundry VTT adding utils for ABF system",
-	"scripts": [
-		"scripts/test.js"
+	"esmodules": [
+		"scripts/module.js",
+		"scripts/MyCustomActor.js"
 	],
-	"minimumCoreVersion": "9.000",
-	"compatibleCoreVersion": "9.269",
+	"languages": [
+		{
+			"lang": "es",
+			"name": "Español",
+			"path": "languages/es.json"
+		}
+	],
+	"styles": [
+		"styles/abf-utils.css"
+	],
+	"dependencies": [
+		{
+			"name": "animabf",
+			"manifest": "https://raw.githubusercontent.com/AnimaBeyondDevelop/AnimaBeyondFoundry/main/src/system.json"
+		},
+		{
+			"name": "Compendium Folders",
+			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
+		}
+	],
+	"relationships": {
+		"requires": [
+			{
+				"id": "animabf",
+				"type": "system",
+				"manifest": "https://raw.githubusercontent.com/AnimaBeyondDevelop/AnimaBeyondFoundry/main/src/system.json",
+				"compatibility": {
+					"verified": "1.15.1"
+				}
+			}
+		]
+	},
+	"socket": true,
+	"minimumCoreVersion": "0.8.8",
+	"compatibleCoreVersion": "9",
 	"system": [ "animabf" ],
 	"url": "https://github.com/JulenBordonaba/ABF-Utils",
 	"manifest": "https://github.com/JulenBordonaba/ABF-Utils/releases/latest/download/module.json",
